@@ -1,4 +1,4 @@
-# Neural Networks as Continuous Dynamical Systems 🧠♾️
+# Neural Networks as Continuous Dynamical Systems 
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![SciPy](https://img.shields.io/badge/SciPy-Integration-lightgrey)
@@ -8,7 +8,7 @@
 **Institution:** Indian Statistical Institute (ISI), Kolkata  
 **Course:** Mathematics IV  
 
-## 📖 About the Project
+##  About the Project
 
 This repository contains the mathematical analysis and computational demonstrations for the study of **Neural Ordinary Differential Equations (Neural ODEs)**. 
 
@@ -20,7 +20,7 @@ Historically, deep neural networks have been viewed as discrete sequences of hid
 * **Boundary Value Problems (BVPs):** Reformulating network training (backpropagation) as a BVP solved backward in time using the **Adjoint Sensitivity Method**.
 * **Topological Constraints:** Demonstrating the strict limits of continuous models—specifically that 1D continuous trajectories cannot cross, restricting the network from learning mappings that require "tearing" the feature space.
 
-## 💻 Computational Demonstration
+##  Computational Demonstration
 
 The project includes a Python implementation that compares a standard discrete ResNet layer against a continuous Neural ODE forward pass using Runge-Kutta integration (`RK45`). 
 
